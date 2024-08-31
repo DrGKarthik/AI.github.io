@@ -1,0 +1,552 @@
+
+.docx-wrapper {
+	background: gray;
+	padding: 30px;
+	padding-bottom: 0px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.docx-wrapper > section.docx {
+	background: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	margin-bottom: 30px;
+}
+
+.docx {
+	color: black;
+}
+
+section.docx {
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column nowrap;
+	position: relative;
+	overflow: hidden;
+}
+
+	section.docx > article {
+		margin-bottom: auto;
+	}
+
+.docx table {
+	border-collapse: collapse;
+}
+
+	.docx table td, .docx table th {
+		vertical-align: top;
+	}
+
+.docx p {
+	margin: 0pt;
+	min-height: 1em;
+}
+
+.docx span {
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+.docx a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+
+.docx {
+	--docx-majorHAnsi-font: Aptos Display;
+	--docx-minorHAnsi-font: Aptos;
+	--docx-dk1-color: #000000;
+	--docx-lt1-color: #FFFFFF;
+	--docx-dk2-color: #0E2841;
+	--docx-lt2-color: #E8E8E8;
+	--docx-accent1-color: #156082;
+	--docx-accent2-color: #E97132;
+	--docx-accent3-color: #196B24;
+	--docx-accent4-color: #0F9ED5;
+	--docx-accent5-color: #A02B93;
+	--docx-accent6-color: #4EA72E;
+	--docx-hlink-color: #467886;
+	--docx-folHlink-color: #96607D;
+}
+
+
+.docx span {
+	font-family: var(--docx-minorHAnsi-font);
+	min-height: 12.00pt;
+	font-size: 12.00pt;
+}
+
+.docx p {
+	margin-bottom: 8.00pt;
+	line-height: 1.16;
+}
+
+p.docx_heading1 {
+	margin-top: 18.00pt;
+	margin-bottom: 4.00pt;
+}
+
+	p.docx_heading1 span {
+		font-family: var(--docx-majorHAnsi-font);
+		color: #0F4761;
+		min-height: 20.00pt;
+		font-size: 20.00pt;
+	}
+
+	p.docx_heading1 span {
+		font-family: var(--docx-majorHAnsi-font);
+		color: #0F4761;
+		min-height: 20.00pt;
+		font-size: 20.00pt;
+	}
+
+p.docx_heading2 {
+	margin-top: 8.00pt;
+	margin-bottom: 4.00pt;
+}
+
+	p.docx_heading2 span {
+		font-family: var(--docx-majorHAnsi-font);
+		color: #0F4761;
+		min-height: 16.00pt;
+		font-size: 16.00pt;
+	}
+
+	p.docx_heading2 span {
+		font-family: var(--docx-majorHAnsi-font);
+		color: #0F4761;
+		min-height: 16.00pt;
+		font-size: 16.00pt;
+	}
+
+p.docx_heading3 {
+	margin-top: 8.00pt;
+	margin-bottom: 4.00pt;
+}
+
+	p.docx_heading3 span {
+		color: #0F4761;
+		min-height: 14.00pt;
+		font-size: 14.00pt;
+	}
+
+	p.docx_heading3 span {
+		color: #0F4761;
+		min-height: 14.00pt;
+		font-size: 14.00pt;
+	}
+
+p.docx_heading4 {
+	margin-top: 4.00pt;
+	margin-bottom: 2.00pt;
+}
+
+	p.docx_heading4 span {
+		font-style: italic;
+		color: #0F4761;
+	}
+
+	p.docx_heading4 span {
+		font-style: italic;
+		color: #0F4761;
+	}
+
+p.docx_heading5 {
+	margin-top: 4.00pt;
+	margin-bottom: 2.00pt;
+}
+
+	p.docx_heading5 span {
+		color: #0F4761;
+	}
+
+	p.docx_heading5 span {
+		color: #0F4761;
+	}
+
+p.docx_heading6 {
+	margin-top: 2.00pt;
+	margin-bottom: 0.00pt;
+}
+
+	p.docx_heading6 span {
+		font-style: italic;
+		color: #595959;
+	}
+
+	p.docx_heading6 span {
+		font-style: italic;
+		color: #595959;
+	}
+
+p.docx_heading7 {
+	margin-top: 2.00pt;
+	margin-bottom: 0.00pt;
+}
+
+	p.docx_heading7 span {
+		color: #595959;
+	}
+
+	p.docx_heading7 span {
+		color: #595959;
+	}
+
+p.docx_heading8 {
+	margin-bottom: 0.00pt;
+}
+
+	p.docx_heading8 span {
+		font-style: italic;
+		color: #272727;
+	}
+
+	p.docx_heading8 span {
+		font-style: italic;
+		color: #272727;
+	}
+
+p.docx_heading9 {
+	margin-bottom: 0.00pt;
+}
+
+	p.docx_heading9 span {
+		color: #272727;
+	}
+
+	p.docx_heading9 span {
+		color: #272727;
+	}
+
+.docx table, table.docx_tablenormal td {
+	padding-top: 0.00pt;
+	padding-left: 5.40pt;
+	padding-bottom: 0.00pt;
+	padding-right: 5.40pt;
+}
+
+span.docx_heading1char {
+	font-family: var(--docx-majorHAnsi-font);
+	color: #0F4761;
+	min-height: 20.00pt;
+	font-size: 20.00pt;
+}
+
+	span.docx_heading1char p {
+		margin-top: 18.00pt;
+		margin-bottom: 4.00pt;
+	}
+
+span.docx_heading1char {
+	font-family: var(--docx-majorHAnsi-font);
+	color: #0F4761;
+	min-height: 20.00pt;
+	font-size: 20.00pt;
+}
+
+span.docx_heading2char {
+	font-family: var(--docx-majorHAnsi-font);
+	color: #0F4761;
+	min-height: 16.00pt;
+	font-size: 16.00pt;
+}
+
+	span.docx_heading2char p {
+		margin-top: 8.00pt;
+		margin-bottom: 4.00pt;
+	}
+
+span.docx_heading2char {
+	font-family: var(--docx-majorHAnsi-font);
+	color: #0F4761;
+	min-height: 16.00pt;
+	font-size: 16.00pt;
+}
+
+span.docx_heading3char {
+	color: #0F4761;
+	min-height: 14.00pt;
+	font-size: 14.00pt;
+}
+
+	span.docx_heading3char p {
+		margin-top: 8.00pt;
+		margin-bottom: 4.00pt;
+	}
+
+span.docx_heading3char {
+	color: #0F4761;
+	min-height: 14.00pt;
+	font-size: 14.00pt;
+}
+
+span.docx_heading4char {
+	font-style: italic;
+	color: #0F4761;
+}
+
+	span.docx_heading4char p {
+		margin-top: 4.00pt;
+		margin-bottom: 2.00pt;
+	}
+
+span.docx_heading4char {
+	font-style: italic;
+	color: #0F4761;
+}
+
+span.docx_heading5char {
+	color: #0F4761;
+}
+
+	span.docx_heading5char p {
+		margin-top: 4.00pt;
+		margin-bottom: 2.00pt;
+	}
+
+span.docx_heading5char {
+	color: #0F4761;
+}
+
+span.docx_heading6char {
+	font-style: italic;
+	color: #595959;
+}
+
+	span.docx_heading6char p {
+		margin-top: 2.00pt;
+		margin-bottom: 0.00pt;
+	}
+
+span.docx_heading6char {
+	font-style: italic;
+	color: #595959;
+}
+
+span.docx_heading7char {
+	color: #595959;
+}
+
+	span.docx_heading7char p {
+		margin-top: 2.00pt;
+		margin-bottom: 0.00pt;
+	}
+
+span.docx_heading7char {
+	color: #595959;
+}
+
+span.docx_heading8char {
+	font-style: italic;
+	color: #272727;
+}
+
+	span.docx_heading8char p {
+		margin-bottom: 0.00pt;
+	}
+
+span.docx_heading8char {
+	font-style: italic;
+	color: #272727;
+}
+
+span.docx_heading9char {
+	color: #272727;
+}
+
+	span.docx_heading9char p {
+		margin-bottom: 0.00pt;
+	}
+
+span.docx_heading9char {
+	color: #272727;
+}
+
+p.docx_title {
+	margin-bottom: 4.00pt;
+	line-height: 1.00;
+}
+
+	p.docx_title span {
+		font-family: var(--docx-majorHAnsi-font);
+		min-height: 28.00pt;
+		font-size: 28.00pt;
+	}
+
+	p.docx_title span {
+		font-family: var(--docx-majorHAnsi-font);
+		min-height: 28.00pt;
+		font-size: 28.00pt;
+	}
+
+span.docx_titlechar {
+	font-family: var(--docx-majorHAnsi-font);
+	min-height: 28.00pt;
+	font-size: 28.00pt;
+}
+
+	span.docx_titlechar p {
+		margin-bottom: 4.00pt;
+		line-height: 1.00;
+	}
+
+span.docx_titlechar {
+	font-family: var(--docx-majorHAnsi-font);
+	min-height: 28.00pt;
+	font-size: 28.00pt;
+}
+
+p.docx_subtitle {
+}
+
+	p.docx_subtitle span {
+		color: #595959;
+		min-height: 14.00pt;
+		font-size: 14.00pt;
+	}
+
+	p.docx_subtitle span {
+		color: #595959;
+		min-height: 14.00pt;
+		font-size: 14.00pt;
+	}
+
+span.docx_subtitlechar {
+	color: #595959;
+	min-height: 14.00pt;
+	font-size: 14.00pt;
+}
+
+	span.docx_subtitlechar p {
+	}
+
+span.docx_subtitlechar {
+	color: #595959;
+	min-height: 14.00pt;
+	font-size: 14.00pt;
+}
+
+p.docx_quote {
+	margin-top: 8.00pt;
+	text-align: center;
+}
+
+	p.docx_quote span {
+		font-style: italic;
+		color: #404040;
+	}
+
+	p.docx_quote span {
+		font-style: italic;
+		color: #404040;
+	}
+
+span.docx_quotechar {
+	font-style: italic;
+	color: #404040;
+}
+
+	span.docx_quotechar p {
+		margin-top: 8.00pt;
+		text-align: center;
+	}
+
+span.docx_quotechar {
+	font-style: italic;
+	color: #404040;
+}
+
+p.docx_listparagraph {
+	margin-left: 36.00pt;
+}
+
+span.docx_intenseemphasis {
+	font-style: italic;
+	color: #0F4761;
+}
+
+p.docx_intensequote {
+	border-top: 0.50pt solid #0F4761;
+	border-bottom: 0.50pt solid #0F4761;
+	margin-top: 18.00pt;
+	margin-bottom: 18.00pt;
+	margin-left: 43.20pt;
+	margin-right: 43.20pt;
+	text-align: center;
+}
+
+	p.docx_intensequote span {
+		font-style: italic;
+		color: #0F4761;
+	}
+
+	p.docx_intensequote span {
+		font-style: italic;
+		color: #0F4761;
+	}
+
+span.docx_intensequotechar {
+	font-style: italic;
+	color: #0F4761;
+}
+
+	span.docx_intensequotechar p {
+		border-top: 0.50pt solid #0F4761;
+		border-bottom: 0.50pt solid #0F4761;
+		margin-top: 18.00pt;
+		margin-bottom: 18.00pt;
+		margin-left: 43.20pt;
+		margin-right: 43.20pt;
+		text-align: center;
+	}
+
+span.docx_intensequotechar {
+	font-style: italic;
+	color: #0F4761;
+}
+
+span.docx_intensereference {
+	font-weight: bold;
+	text-transform: lowercase;
+	color: #0F4761;
+}
+
+table.docx_tablegrid p {
+	margin-bottom: 0.00pt;
+	line-height: 1.00;
+}
+
+table.docx_tablegrid td {
+	border-top: 0.50pt solid black;
+	border-left: 0.50pt solid black;
+	border-bottom: 0.50pt solid black;
+	border-right: 0.50pt solid black;
+	padding-top: 0.00pt;
+	padding-left: 5.40pt;
+	padding-bottom: 0.00pt;
+	padding-right: 5.40pt;
+}
+
+p.docx_normalweb {
+	margin-top: 5.00pt;
+	margin-bottom: 5.00pt;
+	line-height: 1.00;
+}
+
+	p.docx_normalweb span {
+		font-family: Times New Roman;
+	}
+
+span.docx_hyperlink {
+	color: #467886;
+	text-decoration: underline;
+}
+
+span.docx_unresolvedmention {
+	color: #605E5C;
+	background-color: #E1DFDD;
+}
+
+
